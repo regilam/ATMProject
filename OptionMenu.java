@@ -47,6 +47,7 @@ public class OptionMenu {
 					System.out.println("\nWrong Customer Number or Pin Number");
 				}
 			} catch (InputMismatchException e) {
+				end = true;
 				System.out.println("\nInvalid Character(s). Only Numbers.");
 			}
 		}
